@@ -1,0 +1,528 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1675597914259180, "dur": 1781851, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675597914259209, "dur": 6729, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675597914265941, "dur": 32724, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675597914298667, "dur": 222938, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675597914521607, "dur": 1505148, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675597916026757, "dur": 14272, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675597916041437, "dur": 11, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1675597914398109, "dur": 106333, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675597914399134, "dur": 42125, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675597914488560, "dur": 4524, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675597914493087, "dur": 11349, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675597914493796, "dur": 9859, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675597914510995, "dur": 1266, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675597914510140, "dur": 2148, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675597916041505, "dur": 195, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1675597914560940, "dur":1652, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675597914562600, "dur":58, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1675597914562675, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1675597914562690, "dur":329, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1675597914563048, "dur":570, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675597914563618, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675597916011866, "dur":236, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675597916012102, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675597916012117, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675597916012121, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675597916012130, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675597916012132, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675597916012141, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675597916012143, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675597916012151, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675597916012154, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675597916012161, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675597916012163, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675597916012170, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675597916012172, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675597916012177, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675597916012179, "dur":66, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675597916012245, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675597916012265, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675597916012279, "dur":1462, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1675597914563406, "dur":259, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597914563668, "dur":5060, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597914568740, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675597914568816, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597914569499, "dur":251, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675597914569754, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675597914569810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597914570374, "dur":6960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675597914577335, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1675597914577401, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597914577416, "dur":3614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1675597914581132, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS.exe" }}
+,{ "pid":12345, "tid":1, "ts":1675597914581191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597914581199, "dur":93306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS.exe" }}
+,{ "pid":12345, "tid":1, "ts":1675597914674991, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597914675084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597914675207, "dur":49399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597914724661, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597914724723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597914724733, "dur":37476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597914762263, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597914762312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597914762321, "dur":63947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597914826351, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597914826404, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597914826414, "dur":101474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597914927936, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597914927987, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597914927996, "dur":33254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597914961299, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597914961345, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597914961351, "dur":37670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597914999092, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597914999146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597914999157, "dur":50417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597915049635, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597915049688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597915049710, "dur":90852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597915140615, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597915140661, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597915140670, "dur":45237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597915185956, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597915186005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597915186015, "dur":147351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597915333415, "dur":30379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597915363804, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597915363817, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597915365272, "dur":24622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597915389899, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597915389910, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597915390970, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597915391013, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597915391020, "dur":186840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597915577910, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597915577958, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597915577969, "dur":236828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675597915814844, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1675597915814893, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597915814904, "dur":2626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1675597915817580, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1675597915817727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597915817736, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1675597915818803, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1675597915818868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597915818877, "dur":2624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1675597915821553, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1675597915821747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675597915821756, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1675597915822975, "dur":188903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675597914563832, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675597914563832, "dur":4899, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675597914568741, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1675597914568826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675597914571348, "dur":2539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1675597914573937, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1675597914573991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675597914574108, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1675597914575520, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1675597914575581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675597914576063, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1675597914578001, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1675597914578095, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675597914578104, "dur":79842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1675597914658277, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1675597914658342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675597914658979, "dur":5730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1675597914664815, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597914664865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675597914664875, "dur":147446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597914812374, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597914812428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675597914812437, "dur":121092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597914933595, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597914933685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675597914933695, "dur":106940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915040715, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915040782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675597915040793, "dur":78333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915119187, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915119239, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675597915119252, "dur":39582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915158886, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915158935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675597915158946, "dur":70855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915229855, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915229909, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675597915229919, "dur":26939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915256910, "dur":49418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915306334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675597915306346, "dur":2132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915308529, "dur":934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915309468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675597915309478, "dur":4707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915314234, "dur":58862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915373101, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675597915373113, "dur":8239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915381410, "dur":37335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915418748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675597915418755, "dur":1921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915420730, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915420782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675597915420789, "dur":207609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915628448, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915628498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675597915628507, "dur":167753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915796311, "dur":89043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915885360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675597915885458, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675597915886640, "dur":125236, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675597914563687, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675597914563688, "dur":5045, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675597914568740, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1675597914568864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675597914576909, "dur":82007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1675597914658969, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597914659096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675597914664423, "dur":79936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597914744408, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597914744461, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675597914744468, "dur":57833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597914802353, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597914802402, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675597914802411, "dur":70403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597914872868, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597914872919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675597914872930, "dur":33884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597914906858, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597914906912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675597914906921, "dur":54276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597914961247, "dur":748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597914961998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675597914962005, "dur":82117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597915044172, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597915044222, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675597915044231, "dur":49747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597915094029, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597915094088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675597915094094, "dur":44091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597915138244, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597915138322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675597915138333, "dur":44988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597915183381, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597915183438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675597915183449, "dur":34616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597915218118, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597915218184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675597915218194, "dur":47464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597915265714, "dur":117747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597915383465, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675597915383475, "dur":1700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597915385227, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597915385301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675597915385310, "dur":61643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597915447010, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597915447070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675597915447079, "dur":146122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597915593250, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597915593298, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675597915593307, "dur":251324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675597915844679, "dur":167188, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597914563551, "dur":156, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597914563707, "dur":5029, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597914568741, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1675597914568851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597914576292, "dur":82439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1675597914658780, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597914658828, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597914659295, "dur":23587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597914682928, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597914682970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597914682978, "dur":54264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597914737293, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597914737354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597914737363, "dur":135495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597914873022, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597914873087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597914873112, "dur":87891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597914961055, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597914961106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597914961115, "dur":47694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915008865, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915008915, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597915008924, "dur":85029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915094009, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915094063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597915094072, "dur":51965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915146093, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915146146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597915146157, "dur":36375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915182600, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915182885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597915182895, "dur":31821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915214770, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915214821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597915214846, "dur":52906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915267800, "dur":89475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915357280, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597915357292, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915359203, "dur":977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915360185, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597915360195, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915361445, "dur":57184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915418647, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597915418656, "dur":1690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915420399, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915420463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597915420472, "dur":201451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915622076, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915622143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597915622154, "dur":45862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915668061, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915668111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597915668121, "dur":149643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675597915817812, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675597915817859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597915817865, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675597915819865, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1675597915819916, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597915819924, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1675597915821054, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1675597915821101, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675597915821106, "dur":1667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1675597915822818, "dur":189046, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597914563977, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597914563977, "dur":4757, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597914568741, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1675597914568819, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597914571137, "dur":2754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1675597914573945, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1675597914574000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597914574120, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1675597914575436, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1675597914575488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597914576270, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1675597914577711, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1675597914577771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597914577777, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1675597914578896, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597914578948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597914579188, "dur":79038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597914658295, "dur":186819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/zSpace.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597914845119, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597914845129, "dur":1131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/zSpace.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597914846305, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597914846355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597914846364, "dur":52496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597914898910, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597914898965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597914898977, "dur":136772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597915035810, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597915035866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597915035879, "dur":85920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597915121858, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597915121933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597915121944, "dur":43303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597915165681, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597915165784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597915165796, "dur":43956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597915209804, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597915209851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597915209887, "dur":34373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597915244311, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597915244363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597915244373, "dur":29722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597915274185, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597915274240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597915274250, "dur":63560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597915337877, "dur":44673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597915382554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597915382562, "dur":1260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597915383873, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597915383922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597915383929, "dur":293803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597915677779, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597915677825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597915677835, "dur":125541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597915803423, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Plugins/x86_64/zCoreUnity.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597915803468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597915807139, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Plugins/x86_64/zCoreUnity.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675597915808377, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1675597915808506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597915808935, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1675597915809879, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1675597915809926, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597915809973, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1675597915811254, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1675597915811301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597915811309, "dur":6225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1675597915817585, "dur":949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1675597915818541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597915818552, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1675597915819475, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1675597915819520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597915819547, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1675597915820751, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1675597915820806, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675597915820813, "dur":2423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1675597915823296, "dur":188594, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675597914564114, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675597914564114, "dur":4626, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675597914568740, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1675597914568834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675597914575814, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1675597914577008, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1675597914577064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675597914577072, "dur":3363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1675597914580487, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1675597914580544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675597914580560, "dur":81491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1675597914662123, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597914662196, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675597914664984, "dur":76349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597914743934, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597914744053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675597914744064, "dur":69517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597914813635, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597914813683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675597914813692, "dur":40317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597914854063, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597914854107, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675597914854114, "dur":216952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597915071123, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597915071182, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675597915071191, "dur":69752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597915141003, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597915141140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675597915141149, "dur":68594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597915209793, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597915209843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675597915209852, "dur":25255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597915235155, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597915235204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675597915235211, "dur":143813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597915379083, "dur":1072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597915380161, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675597915380176, "dur":1270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597915381493, "dur":908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597915382405, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675597915382416, "dur":1147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597915383618, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597915383668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675597915383675, "dur":94777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597915478496, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597915478544, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675597915478553, "dur":76472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597915555077, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597915555128, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675597915555137, "dur":60001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597915615190, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597915615239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675597915615249, "dur":212082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675597915827390, "dur":184492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675597914564220, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675597914564220, "dur":4510, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675597914568740, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1675597914568882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675597914577758, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1675597914579213, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597914579275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675597914579281, "dur":79502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597914658835, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597914658909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675597914659270, "dur":93768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597914753089, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597914753139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675597914753149, "dur":90819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597914844017, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597914844065, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675597914844074, "dur":52784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597914896909, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597914896961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675597914896970, "dur":99231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597914996253, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597914996304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675597914996314, "dur":73494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915069860, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915069919, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675597915069931, "dur":50275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915120258, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915120310, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675597915120322, "dur":43421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915163793, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915163844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675597915163855, "dur":32817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915196727, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915196779, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675597915196789, "dur":39020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915235860, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915235911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675597915235919, "dur":45289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915281255, "dur":89237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915370497, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675597915370511, "dur":1847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915372409, "dur":966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915373378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675597915373413, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915374721, "dur":43025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915417751, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675597915417763, "dur":3512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915421327, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915421373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675597915421379, "dur":106142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915527667, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915527760, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675597915527768, "dur":173247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915701066, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915701117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675597915701127, "dur":46983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915748158, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597915748205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675597915748215, "dur":263564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675597916011826, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1675597916011829, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675597914564321, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675597914564321, "dur":4429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675597914568750, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1675597914568830, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675597914571497, "dur":2308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1675597914573858, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1675597914573923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675597914574060, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1675597914575336, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1675597914575394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675597914575404, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1675597914576807, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1675597914576879, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675597914576996, "dur":2132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1675597914579181, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675597914579246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675597914579305, "dur":79323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675597914658685, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675597914658738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675597914659038, "dur":168584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675597914827673, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675597914827732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675597914827741, "dur":43760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675597914871547, "dur":147919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675597915019475, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675597915019505, "dur":27545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675597915047113, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675597915047428, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675597915047441, "dur":78934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675597915126437, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675597915126489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675597915126501, "dur":108524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675597915235076, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675597915235127, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675597915235136, "dur":58172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675597915293353, "dur":347800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675597915641158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675597915641169, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675597915642630, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675597915642681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675597915642690, "dur":137806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675597915780543, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675597915780593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675597915780603, "dur":167588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aredio/Desktop/IA/BUILD/Aredio Vani - IA_WS_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675597915948227, "dur":63648, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675597916015201, "dur":1693, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1675597916041751, "dur": 592, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675597916041428, "dur": 933, "ph": "X", "name": "Write chrome-trace events", "args": {} },

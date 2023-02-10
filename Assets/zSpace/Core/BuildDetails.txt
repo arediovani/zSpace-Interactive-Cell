@@ -1,0 +1,4 @@
+zSpace Core SDK for Unity
+Version: 6.3.0.1
+Git Commit: f6e7ffa60d2fabfcca9e3e49d4f8e667cbbf67c5
+Build Timestamp: 2022-10-31T04:59:14Z
